@@ -191,7 +191,10 @@ em { color: var(--amber); font-style: italic; }
 .contact-form textarea { height: 96px; resize: none; }
 .contact-form input:focus, .contact-form textarea:focus { border-color: var(--amber); box-shadow: 0 0 0 2px rgba(180,83,9,.12); }
 .contact-form .button { width: max-content; }
+.contact-form .button:disabled { cursor: wait; opacity: .72; }
+.form-honeypot { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .form-success { margin: 0; color: #176b43; font-size: 14px; }
+.form-error { margin: 0; color: #a33120; font-size: 14px; }
 
 @media (max-width: 920px) {
   body { line-height: 1.65; }
