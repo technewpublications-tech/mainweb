@@ -15,7 +15,10 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-image frame-offset">
-            <img src="/assets/home-hero.avif" alt="Medium close-up of a researcher's organized desk, a laptop showing a structured scientific manuscript layout, stacked academic journals, bright natural library daylight, shallow depth of field, 35mm lens" />
+            <picture>
+              <source media="(max-width: 520px)" srcSet="/assets/home-hero-mobile.png" />
+              <img src="/assets/home-hero-desktop.png" alt="Medium close-up of a researcher's organized desk, a laptop showing a structured scientific manuscript layout, stacked academic journals, bright natural library daylight, shallow depth of field, 35mm lens" />
+            </picture>
           </div>
         </div>
       </section>

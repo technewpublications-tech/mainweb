@@ -12,7 +12,7 @@ export default function Services() {
     <SitePage>
       <section className="hero split-hero services-hero">
         <div className="container hero-grid image-left">
-          <div className="hero-image frame-offset"><img src="/assets/services-hero.avif" alt="Overhead shot of an organized academic desk, printed manuscript pages with red annotations, a laptop showing a LaTeX document, soft window light, shallow depth of field" /></div>
+          <div className="hero-image frame-offset"><picture><source media="(max-width: 520px)" srcSet="/assets/services-hero-mobile.png" /><img src="/assets/services-hero-desktop.png" alt="Overhead shot of an organized academic desk, printed manuscript pages with red annotations, a laptop showing a LaTeX document, soft window light, shallow depth of field" /></picture></div>
           <div className="hero-copy">
             <p className="eyebrow">/ &nbsp;Manuscript Preparation</p>
             <h1>Refining manuscripts for <em>high-impact journals</em></h1>

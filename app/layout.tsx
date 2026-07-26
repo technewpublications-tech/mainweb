@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   title: "Tech New Publication | Manuscript Refinement",
   description: "Rigorous manuscript refinement, peer-review simulation, and journal-ready technical formatting for global researchers.",
   icons: {
-    icon: "/assets/logo.avif",
-    shortcut: "/assets/logo.avif",
+    icon: "/assets/logo.png",
+    shortcut: "/assets/logo.png",
   },
   openGraph: {
     title: "Tech New Publication",

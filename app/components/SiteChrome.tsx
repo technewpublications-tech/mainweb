@@ -11,7 +11,7 @@ export function Header() {
     <header className="site-header">
       <div className="header-inner">
         <a className="brand" href="/" aria-label="Tech New Publication home">
-          <img src="/assets/logo.avif" alt="Tech New Publication" />
+          <img src="/assets/logo.png" alt="Tech New Publication" />
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           {navItems.map(([label, href]) => (
